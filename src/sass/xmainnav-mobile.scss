@@ -1,0 +1,36 @@
+// https://web.dev/website-navigation/
+@include breakpoint(0, $mobile) {
+  nav[aria-label='Main'] {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    ul {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100vw;
+      max-width: 22rem;
+      padding: 1rem;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      background: white;
+      box-shadow: -5px 0 10px 0 rgb(0 0 0 / 0.1);
+      transition: transform 0.6s cubic-bezier(.68,-0.55,.27,1.55), visibility 0.3s linear;
+
+
+
+    }
+  }
+
+  button[aria-expanded='false'] + ul {
+    opacity: 0;
+    transform: translateX(100%);
+    visibility: hidden;
+  }
+
+  button[aria-expanded='true'] + ul {
+    visibility: visible;
+  }
+}

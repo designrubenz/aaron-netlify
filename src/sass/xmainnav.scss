@@ -1,0 +1,23 @@
+// https://web.dev/website-navigation/
+nav[aria-label='Main'] {
+  ul {
+    display: flex;
+
+  }
+}
+
+@include breakpoint($desktop) {
+  nav[aria-label='Main'] {
+    position: static;
+    button {
+      display: none;
+    }
+
+    ul {
+    }
+
+    li + li {
+      margin-left: 1rem;
+    }
+  }
+}

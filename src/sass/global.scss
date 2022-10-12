@@ -1,0 +1,70 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html {
+  // font-family: '';
+  // background-color: $bgcolor;
+  // color: $copy;
+}
+
+@include breakpoint(0, $mobile) {
+  html {
+    // font-size: 10px;
+  }
+}
+
+@include breakpoint($desktop) {
+  html {
+    // font-size: 12px;
+  }
+}
+
+body {
+}
+
+h1, h2, h3 {
+  // font-family: '';
+  font-weight: normal;
+}
+
+a {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+  &[aria-current="page"] {
+    color: red;
+  }
+}
+
+strong, em {
+  font-weight: 400;
+}
+
+.primary {
+  color: $primary;
+}
+
+.maxwidth-container {
+  max-width: rem($max-width);
+  margin: 0 auto;
+}
+
+ul.bullet-list, main ul {
+  list-style: disc;
+  li {
+    margin-left: 1.3rem;
+  }
+}
+
+
+div.level {
+  img:first-of-type {
+    background-color: $bggray;
+    border: 2rem solid $bggray;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+  }
+}

@@ -1,0 +1,123 @@
+<!--
+    TODO: – Add title
+    – Add keywords & description
+    - Run https://realfavicongenerator.net/ for favicons, tile & touchicons
+    – Run https://realfavicongenerator.net/social for og image & info
+    - Edit privacy info
+    - Create E-mail-address datenschutz@
+    – Host fonts locally with https://google-webfonts-helper.herokuapp.com/fonts
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aaron G. Miller | Home</title>
+        <link rel='stylesheet' href='./style.css'>
+    </head>
+    <body>
+        <header>
+            <a href="/"><h1>Aron G. Miller | Choreographer</h1></a>
+            <nav id='mainnav'>
+                <button id="hamburger" class='closed'>
+                    <div class='line-1'></div>
+                    <div class='line-2'></div>
+                    <div class='line-3'></div>
+                </button>
+                <ul>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#news">News</a></li>
+                </ul>
+            </nav>
+            <h2>I believe you can dance.</h2>
+            <a href="#" class="button">Book Workshop</a>
+        </header>
+
+        <main>
+          
+<section id="workshops">
+  <p class="super-headline">Find your entrance level & book a workshop with Aaron</p>
+  <h2>If you never start, you will never know.</h2>
+
+  <div class="level">
+    <img src="./images/stretch.svg" alt='Icon showing dancer stretching her leg up to her nose.'>
+    <p>3</p>
+    <h3>As pro as you can get</h3>
+    <p>Lorem ipsum...</p>
+    <a href="#" class="button">Book Workshop</a>
+    <img src="./images/quote.svg" alt='quote sign'>
+    <blockquote>Respect your talent!</blockquote>
+    <p class='apply'>Apply for an audition now!</p>
+  </div>
+
+  <div class="level">
+    <img src="./images/up.svg" alt='Icon showing dancer stretching her leg up to her nose.'>
+    <p>3</p>
+    <h3>As pro as you can get</h3>
+    <p>Lorem ipsum...</p>
+    <a href="#" class="button">Book Workshop</a>            
+    <img src="./images/quote.svg" alt='quote sign'>
+    <blockquote>Respect your talent!</blockquote>
+    <p class='apply'>Registration now open for everybody!</p>
+  </div>
+
+  <div class="level">
+    <img src="./images/rise.svg" alt='Icon showing dancer stretching her leg up to her nose.'>
+    <p>3</p>
+    <h3>As pro as you can get</h3>
+    <p>Lorem ipsum...</p>
+    <a href="#" class="button">Book Workshop</a>            
+    <img src="./images/quote.svg" alt='quote sign'>
+    <blockquote>Respect your talent!</blockquote>
+    <p class='apply'>Registration now open for everybody!</p>
+  </div>
+
+</section>
+<section id="about">
+  <div>
+    <img src="" alt=""/>
+
+    <p class="super-headline">Why I teach</p>
+    <h2>Hi, I'm Aaron!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque incidunt, nihil, recusandae autem aut perferendis reiciendis a neque veniam quibusdam animi ex tempora reprehenderit, aspernatur asperiores consequatur consectetur ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque incidunt, nihil, recusandae autem aut perferendis reiciendis a neque veniam quibusdam animi ex tempora reprehenderit, aspernatur asperiores consequatur consectetur ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque incidunt, nihil, recusandae autem aut perferendis reiciendis a neque veniam quibusdam animi ex tempora reprehenderit, aspernatur asperiores consequatur consectetur ipsum!</p>
+
+    <a>Learn more</a> <!-- styled as button -->
+  </div>
+</section>
+<section id="news">
+  <p class="super-headline">Making waves since 2004</p>
+  <h2>In the News</h2>
+
+  
+  
+    <article>
+      <h3><a href='/news/soldout/'>Sold out</a> – </h3> 
+      <p>We've done it again</p>
+    </article>
+  
+    <article>
+      <h3><a href='/news/reallysoldout/'>Really Sold out</a> – </h3> 
+      <p>We've done it again and again and again</p>
+    </article>
+  
+</section>
+
+        </main>
+
+        <footer>
+            <h4>Thank you for your interest in Art!</h4>
+            <p>© 2004 – 2023 Aaron G. Miller</p>
+            <a href="#">Imprint & Privacy</a> 
+        </footer>
+        <script src='./main.js'></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                MainNav.init();
+            });
+        </script>
+    </body>
+</html>
+
