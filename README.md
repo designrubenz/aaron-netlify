@@ -7,6 +7,11 @@
 ## Live server / browser syncing
 `(cd ./dist && npx browser-sync start -s  --files='**/*' --watch)`
 
+## Test Einfügung
+- ich bin eine neue Liste
+- Heute ist schönes Wetter
+- Linux ist toll
+
 
 ## Build
 Run `./build` to
