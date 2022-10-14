@@ -33,5 +33,6 @@ with `git@github-studio`, i.e.
 in order to be able to push upstream with the studio-rubenz-SSH-identity.
 
 s. https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer
-----
-AWESOME!
+
+## Adding a new change test
+Hallo, ich bin eine neue Veränderung
